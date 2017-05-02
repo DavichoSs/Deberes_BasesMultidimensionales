@@ -1,0 +1,82 @@
+<html>
+  <head>
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['DATOS ESTADÍSTICOS POR PROVINCIA', 'Con Internaci\u00F3n', 'Sin Internaci\u00F3n'],
+          ['01 AZUAY',38, 225],
+          ['02 BOLIVAR', 7, 78],
+          ['03 CAÑAR', 8, 103],
+          ['04 CARCHI', 5, 86],
+          ['05 COTOPAXI', 20, 108],
+          ['06 CHIMBORAZO', 24, 162],
+          ['07 EL ORO', 53, 139],
+          ['08 ESMERALDAS', 26, 158],
+          ['09 GUAYAS', 159, 412],
+          ['10 IMBABURA', 14, 105],
+          ['11 LOJA', 29, 209],
+         
+        ]);
+
+        var options = {
+          chart: {
+            title: 'Serie 2.1.4',
+            subtitle: 'Numero de Establecimientos de Salud con Internaci\u00F3n y sin Internaci\u00F3n Hospitalaria, según provincias. Año 2014',
+          }
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('columnchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart1);
+
+      function drawChart1() {
+        var data = google.visualization.arrayToDataTable([
+          ['DATOS ESTADÍSTICOS POR PROVINCIA', 'Con Internaci\u00F3n', 'Sin Internaci\u00F3n'],
+          ['12 LOS RIOS', 58, 128],
+          ['13 MANABI', 63, 335],
+          ['14 MORONA SANTIAGO', 8, 103],
+          ['15 NAPO', 6, 43],
+          ['16 PASTAZA', 4, 57],
+          ['17 PICHINCHA', 123, 469],
+          ['18 TUNGURAHUA', 30, 125],
+          ['19 ZAMORA CHINCHIPE', 4, 71],
+          ['20 GALAPAGOS', 2, 9],
+          ['21 SUCUMBIOS', 9, 73],
+          ['22 ORELLANA', 5, 54],
+          ['23 STO DMGO. TSACHILAS', 33, 63],
+          ['24 SANTA ELENA', 14, 76],
+          ['90 ZONA NO DELIMITADA', 0, 6],
+        ]);
+
+        var options = {
+          chart: {
+            title: 'Serie 2.1.4',
+            subtitle: 'Numero de Establecimientos de Salud con Internaci\u00F3n y sin Internaci\u00F3n Hospitalaria, según provincias. Año 2014',
+          }
+        };
+
+        var chart1 = new google.charts.Bar(document.getElementById('columnchart_material1'));
+
+        chart1.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+  </head>
+  <body>
+  <div>
+    <h1>Desarrollado por: Alexander Figueroa</h1>
+  </div>
+    <div id="columnchart_material" style="width: 1300px; height: 500px;"></div>
+    <br>
+    <div id="columnchart_material1" style="width: 1500px; height: 500px;"></div>
+  </body>
+</html>
