@@ -1,0 +1,60 @@
+<html>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['corechart']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['Provincia', 'Año 2005', 'Año 2014'],
+          ['Azuay', 7.19, 8.62],
+          ['Bolivar', 5.81, 13.42],
+          ['Cañar', 3.46, 10.04],
+          ['Carchi', 5.12, 14.25],
+          ['Cotopaxi', 3.14, 7.52],
+          ['Chimborazo', 6.76, 10.21],
+          ['Imbabura', 6.85, 12.69],
+          ['Loja', 6.26, 13.16],
+          ['Pichincha', 10.93, 15.46],
+          ['Tungurahua', 4.94, 10.82],
+          ['Santo Domindo de los Tsachilas', 2.20, 7.91],
+          ['El Oro', 3.83, 9.60],
+          ['Esmeraldas', 2.24, 7.52],
+          ['Guayas', 4.86, 8.13],
+          ['Los Rios', 1.82, 5.53],
+          ['Manabi', 4.12, 8],
+          ['Santa Elena', 0.90, 5.45],
+          ['Morona Santiago', 5.73, 11.25],
+          ['Napo', 6.46, 18.64],
+          ['Pastaza', 7.88, 17.10],
+          ['Zamora Chinchipe', 4.73, 15.40],
+          ['Sucumbios', 4.42, 7.62],
+          ['Orellana', 2.12, 13.80],
+          ['Galapagos', 2.12, 13.80],
+          ['Zonas no Delimitadas', 0, 2.16]
+        ]);
+
+        var options = {
+          title: 'Grafico No.2.1.8',
+          vAxis: {title: 'Tasa de Enfermeras'},
+          isStacked: true
+        };
+
+        var chart = new google.visualization.SteppedAreaChart(document.getElementById('chart_div'));
+
+        chart.draw(data, options);
+      }
+    </script>
+  </head>
+  <body>
+  <div><center><h1>Grafico No.2.1.8</h1></center>
+        <center><h2>Tasa de Enfermeras segun Provincia</h2></center>
+        <center><h2>2005 y 2014</h2></center>
+        <h2>Autor: Ruben Pozo</h2>
+
+  </div>
+
+    <div id="chart_div" style="width: 1400px; height: 600px;"></div>
+  </body>
+</html>
