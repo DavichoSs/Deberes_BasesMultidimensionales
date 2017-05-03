@@ -1,0 +1,97 @@
+<html>
+<script >
+	//Chamba Jean Carlos 
+	//Bases de Datos Multidimensionales
+	//Serie 3.1.1
+</script>
+  <head>
+    <script type="text/javascript" src="https://www.gstatic.com/charts/loader.js"></script>
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart);
+
+      function drawChart() {
+        var data = google.visualization.arrayToDataTable([
+          ['ENTIDAD', 'Con Internaci\u00F3n', 'Sin Internaci\u00F3n'],
+          ['Ministerio de Salud Publica',129,1635],
+          ['Seguro Social',18, 61],
+          ['Municipio', 9, 64],
+          ['Ministerio Defensa Nacional', 16, 72],
+          ['Ministerio de Justicia', 2, 35],
+          ['Otros Ministerios1/', 0, 129],
+          ['Anexos al IESS', 0, 333],
+          ['Seguro Social Campesino', 0, 579],
+          ['Sociedad de Lucha Contra el Cancer', 8, 4],
+          ['Consejos Provinciales', 0, 0],
+          ['Otros Publicos', 11, 31],
+        ]);
+
+        var options = {
+          chart: {
+            title: ' ',
+            subtitle: '',
+          },
+          bars: 'horizontal' // Required for Material Bar Charts.
+        };
+
+        var chart = new google.charts.Bar(document.getElementById('barchart_material'));
+
+        chart.draw(data, google.charts.Bar.convertOptions(options));
+      }
+    </script>
+
+    <script type="text/javascript">
+      google.charts.load('current', {'packages':['bar']});
+      google.charts.setOnLoadCallback(drawChart1);
+      function drawChart1() {
+        var data = google.visualization.arrayToDataTable([
+          ['ENTIDAD', 'Con Internaci\u00F3n', 'Sin Internaci\u00F3n'],
+          ['Ministerio de Salud Publica',127,1972],
+          ['Seguro Social',22, 52],
+          ['Municipio', 8, 67],
+          ['Ministerio Defensa Nacional', 12, 52],
+          ['Ministerio de Justicia', 2, 22],
+          ['Otros Ministerios1/', 0, 19],
+          ['Anexos al IESS', 0, 229],
+          ['Seguro Social Campesino', 0, 657],
+          ['Sociedad de Lucha Contra el Cancer', 7, 5],
+          ['Consejos Provinciales', 0, 19],
+          ['Otros Publicos', 9, 119],
+        ]);
+
+        var options1 = {
+          chart1: {
+            title: '',
+            subtitle: ' ',
+          },
+          bars: 'horizontal' // Required for Material Bar Charts.
+        };
+
+        var chart1 = new google.charts.Bar(document.getElementById('barchart_material1'));
+
+        chart1.draw(data, google.charts.Bar.convertOptions(options1));
+      }
+    </script>
+  </head>
+  <body>
+  	<center>
+  	<h1>Bases de Datos Multidimensionales</h1>
+  	<h2>Chamba Jean Carlos</h2>
+  	<h3>Serie 3.1.1</h3></center>
+  	<h3>Establecimientos de salud con internación y sin internación hospitalaria según entidad a la que pertenecen</h3>
+  	<br><br>
+  	<h3>Año 2014</h3>
+    <div id="barchart_material" style="width: 900px; height: 500px;"></div>
+    <br><br><br>
+    <h3>Año 2014</h3>
+    <div id="barchart_material1" style="width: 900px; height: 500px;"></div>
+  </body>
+  
+</html>
+
+
+
+
+
+
+
