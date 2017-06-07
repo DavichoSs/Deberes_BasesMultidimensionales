@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html>
+  <head>
+ <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.2.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+
+  <style>
+  button {margin: 20px; padding: 10px}
+  </style>
+    <title>CouchDB DEBER</title>
+    <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+    <script src="http://localhost:5984/_utils/script/json2.js"></script>
+    <script src="http://localhost:5984/_utils/script/sha1.js"></script>
+    <script src="http://localhost:5984/_utils/script/jquery.js?1.4.2"></script>
+    <script src="http://localhost:5984/_utils/script/jquery.couch.js?0.11.0"></script>
+    <script src="http://localhost:5984/_utils/script/jquery.dialog.js?0.11.0"></script>
+
+    <script src="test.js"></script>
+    <script src="test2.js"></script>
+    <script src="test3.js"></script>
+    <script src="test4.js"></script>
+    <script src="test5.js"></script>
+    <script src="test6.js"></script>
+    <script src="test7.js"></script>
+    <script src="test8.js"></script>
+    <script src="test9.js"></script>
+    <script src="test10.js"></script>
+
+  </head>
+  <body>
+
+  <center><h3>ESCUELA POLOTÉCNICA NACIONAL</h3></center>
+  <center><h3>ESCUELA DE FORMACIÓN NACIONAL</h3></center>
+  <center><h4>BASE DE DATOS MULTIDIMENSIONALES</h4></center>
+
+<h4>Integrantes</h4>
+  <ul>
+  	<li>Rubén Pozo</li>
+  	<li>Jean Carlos Chamba</li>
+  	<li>Alexander Figueroa</li>
+
+  </ul>
+  <center><textarea id="resultado" rows="20" cols="80" ></textarea></center><br>
+  <div style="display: flex;margin-left: 170px">
+  <center><button class="btn btn-primary" type="button" onclick="alert('Muestra los modelos de celulares que fueron fabricados despues del 2016-01-01')" id="ejecutar1">Vista 1</button></center>
+  <center><button class="btn btn-success" type="button" onclick="alert('Muestra todos los modelos de celulares del fabricane SONY')" id="ejecutar2">Vista 2</button></center>
+  <center><button class="btn btn-info" type="button"  onclick="alert('Muestra los fabricantes cuyo sistema operativo es Android 7.0 ')" id="ejecutar3">Vista 3</button></center>
+  <center><button class="btn btn-warning" type="button" onclick="alert(' Muestra el Hardware de los dispositivos de color Negro')" id="ejecutar4">Vista 4</button></center>
+  <center><button class="btn btn-danger" type="button" onclick="alert('Cuenta los celulares que dispongan con cámara de 12MP ')" id="ejecutar5">Vista 5</button></center>
+  <center><button class="btn btn-primary" type="button" onclick="alert('Cuenta los celulares que tienen resolución de pantalla de 1080x1920 ')" id="ejecutar6">Vista 6</button></center>
+  <center><button class="btn btn-success" type="button" onclick="alert('Cuenta los últimos modelos fabricados a partir de la fecha 2017-01-01 ')" id="ejecutar7">Vista 7</button></center>
+  <center><button class="btn btn-info" type="button" onclick="alert(' Cuenta los dispositivos que tengan procesador Dual Core')" id="ejecutar8">Vista 8</button></center>
+  <center><button class="btn btn-warning" type="button" onclick="alert(' Lista los celulares que dispongan 32GB de Almacenamiento')" id="ejecutar9">Vista 9</button></center>
+  <center><button class="btn btn-danger" type="button" onclick="alert(' Muestra los modelos disponibles y su fecha de fabricación')" id="ejecutar10">Vista 10</button></center>
+  </div>
+
+  </body>
+</html>

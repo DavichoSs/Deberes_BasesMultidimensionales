@@ -1,0 +1,537 @@
+﻿{
+   "Modelo":"LG-SMG5",
+   "Fabricante": "LG",
+   "Nombre": "LG-G5",
+   "Color": "Gris",
+   "Hardware": ["Qualcomm Snapdragon 801", "quad-core a 2,5 GHz"],
+   "Software": "Android 5.0",
+   "Fecha de fabricacion": "2016-07-20",
+   "Pantalla": "1440x2560 ",
+   "Camara": "2,1MP"
+}
+
+{  "Modelo": "D6603",
+   "Fabricante": "Sony",
+   "Nombre": "Sony Xperia Z3",
+   "Color": "Blanco",
+   "Hardaware": ["Qualcomm Snapdragon 801 8974AC", "Núcleos: 4 GPU"],
+   "Sofware": "Android 5.1",
+   "Fecha fabricacion": "2016-09-09",
+   "Pantalla": "1080 x 1920 ",
+   "Camara": "20,7 MP"
+}
+
+{  "Modelo": "VP-Sony",
+   "Fabricante": "Sony",
+   "Nombre": "Sony Ericsson Vivaz Pro",
+   "Color": "azul",
+   "Hardware": ["720 MHz", "PowerVR SGX GPU"],
+   "Software": "\"Simbian 6.0",
+   "Fecha": "2010-06-23",
+   "Pantalla": "360 x 640 ",
+   "Camara": "5 MP"
+}
+
+{  "Modelo": "a500M/DS",
+   "Fabricante": "Samsung",
+   "Nombre": "Samsung A5",
+   "Color": "Negro",
+   "Hardware":["1.2Ghz Quad-Core", "ARM Cortex-A53"],
+   "Software": "Android 4.4.4",
+   "Fecha de fabricacion": "2015-10-23",
+   "Pantalla": "720 x 1280",
+   "Camara": "13 Mp"
+}
+
+{  "Modelo": "sch-1545",
+   "Fabricante": "Samsung",
+   "Nombre": "Samsung galaxy S4",
+   "Color": "blanco",
+   "Hardware": ["1.9Ghz","Quad-Core Krait 300"],
+   "Software": "Android 4.2.2",
+   "Fecha de fabricacion": "2015-09-23",
+   "Pantalla": "1080 x 1920 ",
+   "Camara": "13 MP"
+}
+
+{
+"Modelo":"SM-J500H",
+"Fabricante":"Samsung",
+"Nombre":"Galaxy J5",
+"Color":"Blanco",
+"Hardware":["Quad core","" 1.5 RAM","16 GB"],
+"Software":"Android 5.0",
+"Fecha fabricacion":"2015-06-19",
+"Pantalla":"1280x720",
+"Camara":"13 MP"
+}
+
+
+{
+"Modelo":"SM-J500F",
+"Fabricante":"Samsung",
+"Nombre":"Galaxy J7",
+"Color":"Dorado",
+"Hardware":["Octa core","2 RAM","16 GB"],
+"Software":"Android 6.0",
+"Fecha_fabricacion":"2016-01-19",
+"Pantalla":"1280x720",
+"Cámara":"13 MP"
+}
+
+{
+"Modelo":"SM-A3000",
+"Fabricante":"Samsung",
+"Nombre":"Galaxy A3",
+"Color":"negro",
+"Hardware":["Quad core","2 RAM","16 GB"],
+"Software":"Android 6.0",
+"Fecha_fabricacion":"2015-02-11",
+"Pantalla":"1920x1080",
+"Cámara":"16 MP"
+}
+
+{
+"Modelo":"E6603GEL/B",
+"Fabricante":"Sony",
+"Nombre":"Xperia Z5",
+"Color":"Plata",
+"Hardware":["Octa core","3 RAM","32 GB"],
+"Software":"Android 6.0",
+"Fecha_fabricacion":"2016-09-19",
+"Pantalla":"1920x1080",
+"Cámara":"23 MP"
+}
+
+{  
+   "Modelo":"LGH850",
+   "Fabricante":"LG",
+   "Nombre":"LG G5",
+   "Color":"negro",
+   "Hardware":["Quad core","4 RAM","32 GB"],
+   "Software":"Android 6.0",
+   "Fecha_fabricacion":"2016-03-15",
+   "Pantalla":"1440x2560",
+   "Cámara":"16 MP"
+}
+
+{
+   "Modelo": "IPhone SE",
+   "Fabricante": "Apple",
+   "Nombre": "IPhone SE",
+   "Color": "Blanco",
+   "Hardware": ["Apple A9","2GB","64GB"],
+   "Software": "IOS 9",
+   "Fecha_fabricacion": "2016-03-21",
+   "Pantalla": "1136*640",
+   "Cámara": "12MP"
+}
+
+{
+   "Modelo": "IPhone 6S",
+   "Fabricante": "Apple",
+   "Nombre": "IPhone S6",
+   "Color": "Negro",
+   "Hardware": ["Apple A9","2GB","128GB"],
+   "Software": "IOS 9",
+   "Fecha_fabricacion": "2015-09-09",
+   "Pantalla": "1334*750", 
+   "Cámara": "12MP"
+}
+
+{
+   "Modelo": "IPhone 6",
+   "Fabricante": "Apple",
+   "Nombre": "IPhone 6",
+   "Color": "Negro",
+   "Hardware": ["Apple A8","1GB","64GB"],
+   "Software": "IOS 9",
+   "Fecha_fabricacion": "2014-09-19",
+   "Pantalla": "1334*750",
+   "Cámara":"8MP"
+}
+
+{
+   "Modelo": "LG G4",
+   "Fabricante": "LG",
+   "Nombre": "LG G4",
+   "Color": "Plateado",
+   "Hardware": ["1.8GHz Snapdragon 808","3GB","32GB"],
+   "Software": "Android 5.1 Lillipop",
+   "Fecha_fabricacion": "2015-04-29",
+   "Pantalla":"2560*1440",
+   "Cámara": "16MP"
+}
+
+{
+   "Modelo": "LG G3",
+   "Fabricante": "LG",
+   "Nombre": "LG G3",
+   "Color": "Blanco",
+   "Hardware": ["2.5GHz Qualcomm Snapdradgon","2GB","32GB"],
+   "Software": "Androir 4.4 KitKat",
+   "Fecha_fabricacion": "2014-05-27",
+   "Pantalla": "2560*1440",
+   "Cámara": "13MP"
+}
+
+{
+   "Modelo": "LG G5",
+   "Fabricante": "LG",
+   "Nombre": "LG G5",
+   "Color": "Gris",
+   "Hardware": ["2.5GHz Qualcomm Snapdradgon","2GB","32GB"],
+   "Software": "Android 4.4 KitKat",
+   "Fecha_fabricacion": "2014-05-27",
+   "Pantalla": "2560*1440",
+   "Cámara": "13MP"
+}
+
+{
+   "Modelo": "Samsung A1",
+   "Fabricante": "Samsung",
+   "Nombre": "Samsung A1",
+   "Color": "Blanco",
+   "Hardware": ["2.5GHz Qualcomm","2GB","8GB"],
+   "Software": "Android 4.2",
+   "Fecha_fabricacion": "2014-05-27",
+   "Pantalla": "1900*880",
+   "Cámara": "7 MP"
+}
+
+{
+   "Modelo": "Black Berry z10",
+   "Fabricante": "Black Berry",
+   "Nombre": "Black Berry z10",
+   "Color": "Negro",
+   "Hardware": ["2.5GHz Dual Core","2GB","8GB"],
+   "Software": "Simbian 4.0",
+   "Fecha_fabricacion": "2012-07-13",
+   "Pantalla": "720*560",
+   "Cámara": "4 MP"
+}
+
+{
+   "Modelo": "Microsoft Lumia 640",
+   "Fabricante": "Microsoft",
+   "Nombre": "Microsoft Lumia 640",
+   "Color": "Azul",
+   "Hardware": ["2.5GHz Quad Core","2GB","32GB"],
+   "Software": "Windows Phone",
+   "Fecha_fabricacion": "2016-05-29",
+   "Pantalla": "2560*1440",
+   "Cámara": "13MP"
+}
+
+{
+   "Modelo": "Huawei Nova 2 Plus",
+   "Fabricante": "Huawei",
+   "Nombre": "Huawei Nova 2 Plus",
+   "Color": "Negro",
+   "Hardware": ["2.5GHz Qualcomm Snapdradgon","2GB","16GB"],
+   "Software": "Android 4.4",
+   "Fecha_fabricacion": "2015-06-23",
+   "Pantalla": "2560*1440",
+   "Cámara": "10 MP"
+}
+
+{
+   "Modelo": "Huawei Y6",
+   "Fabricante": "Huawei",
+   "Nombre": "Huawei Y6",
+   "Color": "Blanco",
+   "Hardware": ["2.5GHz Quad core","2GB","16GB"],
+   "Software": "Android 5.0",
+   "Fecha_fabricacion": "2016-03-04",
+   "Pantalla": "2023*1890",
+   "Cámara": "12 MP"
+}
+
+{
+   "Modelo": "Huawei Honor A6",
+   "Fabricante": "Huawei",
+   "Nombre": "Huawei Honor A6",
+   "Color": "Blanco",
+   "Hardware": ["2.5GHz Dual Core","2GB","16GB"],
+   "Software": "Android 5.2",
+   "Fecha_fabricacion": "2016-02-01",
+   "Pantalla": "2560*1440",
+   "Cámara": "12 MP"
+}
+
+{
+   "Modelo": "Huawei Nova 2 Plus",
+   "Fabricante": "Huawei",
+   "Nombre": "Huawei Nova 2 Plus",
+   "Color": "Negro",
+   "Hardware": ["2.5GHz Qualcomm Snapdradgon","2GB","16GB"],
+   "Software": "Android 4.4",
+   "Fecha_fabricacion": "2015-06-23",
+   "Pantalla": "2560*1440",
+   "Cámara": "10 MP"
+}
+
+{
+   "Modelo": "Motorola Moto Z2 Play",
+   "Fabricante": "Motorola",
+   "Nombre": "Motorola Moto Z2",
+   "Color": "Blanco",
+   "Hardware": ["2.5GH, Quad Core","2GB","16GB"],
+   "Software": "Android 6.0",
+   "Fecha_fabricacion": "2016-06-23",
+   "Pantalla": "2560*1440",
+   "Cámara": "16 MP"
+}
+
+{
+   "Modelo": "Motorola Moto C",
+   "Fabricante": "Motorola",
+   "Nombre": "Motorola Moto C",
+   "Color": "Gris",
+   "Hardware": ["2.5GHz Dual Core","2GB","16GB"],
+   "Software": "Android 4.2",
+   "Fecha_fabricacion": "2014-06-22",
+   "Pantalla": "2560*1440",
+   "Cámara": "8 MP"
+}
+
+{
+   "Modelo": "Huawei Nova 2 Plus",
+   "Fabricante": "Huawei",
+   "Nombre": "Huawei Nova 2 Plus",
+   "Color": "Negro",
+   "Hardware": ["2.5GHz Qualcomm Snapdradgon","2GB","16GB"],
+   "Software": "Android 4.4",
+   "Fecha_fabricacion": "2015-06-23",
+   "Pantalla": "2560*1440",
+   "Cámara": "10 MP"
+}
+
+{
+   "Modelo": "Motorola Moto Z",
+   "Fabricante": "Motorola",
+   "Nombre": "Motorola Moto Z",
+   "Color": "Blanco",
+   "Hardware": ["2.5GHz Quad Core","2GB","32GB"],
+   "Software": "Android 6.0",
+   "Fecha_fabricacion": "2016-11-20",
+   "Pantalla": "2560*1440",
+   "Cámara": "16 MP"
+}
+
+{
+   "Modelo": "Motorola Moto G4",
+   "Fabricante": "Motorola",
+   "Nombre": "Motorola Moto G4",
+   "Color": "Blanco",
+   "Hardware": ["2.5GHz Quad Core","2GB","32GB"],
+   "Software": "Android 6.0",
+   "Fecha_fabricacion": "2017-01-22",
+   "Pantalla": "2560*1440",
+   "Cámara": "16 MP"
+}
+
+{
+   "Modelo": "Nokia 6",
+   "Fabricante": "Nokia",
+   "Nombre": "Nokia 6",
+   "Color": "Negro",
+   "Hardware": ["2.5GHz Dual Core","2GB","16GB"],
+   "Software": "Winsdows Phone",
+   "Fecha_fabricacion": "2015-06-23",
+   "Pantalla": "2560*1440",
+   "Cámara": "8 MP"
+}
+
+{
+   "Modelo": "Nokia 3",
+   "Fabricante": "Nokia",
+   "Nombre": "Nokia 3",
+   "Color": "Gris",
+   "Hardware": ["2.5GHz Dual Core","2GB","16GB"],
+   "Software": "Android 4.2",
+   "Fecha_fabricacion": "2014-05-12",
+   "Pantalla": "2010*1897",
+   "Cámara": "8 MP"
+}
+
+{
+   "Modelo": "Samsung Z4",
+   "Fabricante": "Samsung",
+   "Nombre": "Samsung",
+   "Color": "Blanco",
+   "Hardware": ["2.5GHz Quad Core","2GB","32GB"],
+   "Software": "Android 6.0",
+   "Fecha_fabricacion": "2017-02-22",
+   "Pantalla": "2560*1440",
+   "Cámara": 16 MP"
+}
+
+{
+   "Modelo": "Samsung Galaxy J2 Prime",
+   "Fabricante":"Samsung",
+   "Nombre": "Samsung Galaxy J2 Prime",
+   "Color": "Negro",
+   "Hardware": ["2.5GHz Quad Core","8GB","16GB"],
+   "Software": "Android 5.5",
+   "Fecha_fabricacion": "2017-03-20",
+   "Pantalla": "2560*1440",
+   "Cámara": "16 MP"
+}
+
+{
+   "Modelo": "Lg G6",
+   "Fabricante":"LG",
+   "Nombre": "LG Mystic White",
+   "Color": "Blanco",
+   "Hardware": ["2.5GHz Quad Core","8GB","32GB"],
+   "Software": "Android 5.5",
+   "Fecha_fabricacion": "2016-09-22",
+   "Pantalla": "2560*1440",
+   "Cámara": "16 MP"
+}
+
+{
+   "Modelo": "LG HT870",
+   "Fabricante":"LG",
+   "Nombre": "LG Ice Platinium",
+   "Color": "Gris",
+   "Hardware": ["2.5GHz Quad Core","8GB","32GB"],
+   "Software": "Android 6.0",
+   "Fecha_fabricacion": "2016-11-11",
+   "Pantalla": "2560*1440",
+   "Cámara": "18 MP"
+}
+
+{
+   "Modelo": "LG G8",
+   "Fabricante":"LG",
+   "Nombre": "LG Astro Black",
+   "Color": "Negro",
+   "Hardware": ["2.5GHz Quad Core","8GB","32GB"],
+   "Software": "Android 6.0",
+   "Fecha_fabricacion": "2016-12-26",
+   "Pantalla": "2560*1440",
+   "Cámara": "20 MP"
+}
+
+{
+   "Modelo": "LG k4",
+   "Fabricante":"LG",
+   "Nombre": "LG K4",
+   "Color": "Negro",
+   "Hardware": ["2.5GHz Quad Core","8GB","32GB"],
+   "Software": "Android 5.5",
+   "Fecha_fabricacion": "2017-02-21",
+   "Pantalla": "2560*1440",
+   "Cámara": "16 MP"
+}
+
+{
+   "Modelo": "LG k8",
+   "Fabricante":"LG",
+   "Nombre": "LG K8",
+   "Color": "Gris",
+   "Hardware": ["2.5GHz Quad Core","8GB","32GB"],
+   "Software": "Android 6.0",
+   "Fecha_fabricacion": "2017-03-01",
+   "Pantalla": "2230*1420",
+   "Cámara": "16 MP"
+}
+
+{
+   "Modelo": "LG LGM400F",
+   "Fabricante":"LG",
+   "Nombre": "LG Stylus 3",
+   "Color": "Negro",
+   "Hardware": ["2.5GHz Quad Core","8GB","64GB"],
+   "Software": "Android 6.0",
+   "Fecha_fabricacion": "2016-08-22",
+   "Pantalla": "2540*1880",
+   "Cámara": "16 MP"
+}
+
+{
+   "Modelo": "LG V20",
+   "Fabricante":"LG",
+   "Nombre": "LG V20",
+   "Color": "Gris",
+   "Hardware": ["2.5GHz Quad Core","8GB","32GB"],
+   "Software": "Android 6.0",
+   "Fecha_fabricacion": "2017-01-22",
+   "Pantalla": "2560*1440",
+   "Cámara": "16 MP"
+}
+
+{
+   "Modelo": "LG x Power",
+   "Fabricante":"LG",
+   "Nombre": "LG X Power",
+   "Color": "Blaco",
+   "Hardware": ["2.5GHz Quad Core","8GB","32GB"],
+   "Software": "Android 6.0",
+   "Fecha_fabricacion": "2017-01-03",
+   "Pantalla": "2560*1440",
+   "Cámara": "16 MP"
+}
+
+{
+   "Modelo": "Sony Xperia L1",
+   "Fabricante":"Sony",
+   "Nombre": "Sony",
+   "Color": "Negro",
+   "Hardware": ["2.5GHz Quad Core","8GB","32GB"],
+   "Software": "Android 7.0",
+   "Fecha_fabricacion": "2016-19-29",
+   "Pantalla": "2560*1440",
+   "Cámara": "16 MP"
+}
+
+{
+   "Modelo": "Sony Xperia XA1 Ultra",
+   "Fabricante":"Sony",
+   "Nombre": "Sony Xperia XA1 Ultra",
+   "Color": "Blanco",
+   "Hardware": ["2.5GHz Quad Core","8GB","32GB"],
+   "Software": "Android 7.0",
+   "Fecha_fabricacion": "2017-03-12",
+   "Pantalla": "2560*1440",
+   "Cámara": "16 MP"
+}
+
+{
+   "Modelo": "Sony Xperia XZ1",
+   "Fabricante":"Sony",
+   "Nombre": "Sony Xperia XZ1",
+   "Color": "Blanco",
+   "Hardware": ["2.5GHz Quad Core","8GB","32GB"],
+   "Software": "Android 6.0",
+   "Fecha_fabricacion": "2016-09-30",
+   "Pantalla": "2560*1440",
+   "Cámara": "16 MP"
+}
+
+{
+   "Modelo": "Sony Xperia Z5",
+   "Fabricante":"Sony",
+   "Nombre": "Sony Xpreria Z5",
+   "Color": "Negro",
+   "Hardware": ["2.5GHz Quad Core","8GB","32GB"],
+   "Software": "Android 6.0",
+   "Fecha_fabricacion": "2016-07-11",
+   "Pantalla": "2560*1440",
+   "Cámara": "16 MP"
+}
+
+{
+   "Modelo": "Sony Xperia M5",
+   "Fabricante":"Sony",
+   "Nombre": "Sony Xperia M5",
+   "Color": "Negro",
+   "Hardware": ["2.5GHz Quad Core","8GB","32GB"],
+   "Software": "Android 6.0",
+   "Fecha_fabricacion": "2016-04-20",
+   "Pantalla": "2560*1440",
+   "Cámara": "16 MP"
+}
+

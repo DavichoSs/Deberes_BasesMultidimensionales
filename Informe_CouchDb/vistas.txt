@@ -1,0 +1,92 @@
+
+--(vista1) Muestra los modelos de celulares que fueron fabricados despues del 2016-01-01--
+
+function(doc) {
+        var fechaReferencia = new Date("2016-01-01");
+	if (new Date(doc.Fecha_fabricacion) > fechaReferencia){ 
+        emit(doc.Modelo,1);
+	}
+    }
+
+--(vista2) Muestra todos los modelos de celulares del fabricane "SONY"
+
+function(doc) {
+        if(doc.Fabricante.indexOf("Sony") > -1){
+        emit(doc.Modelo);
+	}
+    }
+
+--(vista3) Muestra los fabricantes cuyo sistema operativo es "Android 7.0"
+
+function(doc) {
+        if(doc.Software.indexOf("Android 7.0") > -1){
+        emit(doc.Fabricante);
+	}
+    }
+
+--(vista4) Muestra el Hardware de los dispositivos de color "Negro"
+
+function(doc) {
+        if(doc.Color.indexOf("Negro") > -1){
+        emit(doc.Hardware);
+	}
+    }
+
+--(vista5) Cuenta los celulares que dispongan con cámara de 12MP
+
+function(doc) {
+        if(doc.Cámara.indexOf("12MP") > -1){
+        emit("Celular con cámara de 12MP",1);
+	}
+    }
+
+--(vistas6) Cuenta los celulares que tienen resolución de pantalla de 1080x1920
+
+function(doc) {
+        if(doc.Pantalla.indexOf("1080 x 1920") > -1){
+        emit("Celular con Resolución de panatalla 1080x1920",1);
+	}
+    }
+
+--(vistas7) Cuenta los últimos modelos fabricados a partir de la fecha 2017-01-01
+
+function(doc) {
+        var fechaReferencia= new Date("2017-01-01");
+        if (new Date(doc.Fecha_fabricacion) > fechaReferencia){ 
+	emit("Ultimos modelos fabricados",1);
+	}
+    }
+
+--(vista8) Cuenta los dispositivos que tengan procesador "Dual Core"
+
+function(doc) {
+        var nombre= "Dual Core"; 
+        if(doc.Hardware){
+	 for (var marca in doc.Hardware){ 
+	if(doc.Hardware[marca].indexOf(nombre) > -1){ 
+	emit(nombre,1); 
+	}
+    }
+  }
+}
+
+--(vista9) Lista los celulares que dispongan 32GB de Almacenamiento
+
+function(doc) {
+        var nombre= "32GB"; 
+        if(doc.Hardware){
+	 for (var marca in doc.Hardware){ 
+	if(doc.Hardware[marca].indexOf(nombre) > -1){ 
+	emit(nombre,1); 
+	}
+    }
+  }
+}
+
+--(vista10) Muestra los modelos disponibles y su fecha de fabricación
+
+function(doc) {
+ 	if(doc.Modelo) { 
+	emit(doc.Modelo, doc.Fecha_fabricacion); 
+	}
+}
