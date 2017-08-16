@@ -1,0 +1,33 @@
+
+Vista 1 
+function(doc) {
+	        if(doc.Color.indexOf("Negro") > -1){
+	        emit(doc.Hardware);
+		}
+	    }
+
+
+VISTA 2 
+function(doc) {
+        var pais = "Alemania";
+	if (doc.place.country = pais){ 
+        emit(doc.place.country,1);
+	}
+    }
+
+VISTA 3
+
+function(doc) {
+        if(doc.text.indexOf("electronica") > -1){
+        emit(doc.Fabricante);
+	}
+    }
+
+
+VISTA 4
+
+function(doc) {
+        if(doc.text.IndexOf("festival") > -1){
+        emit(doc.Hardware);
+	}
+    }
